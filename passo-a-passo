@@ -1,0 +1,7 @@
+1 - gerei um certificado com o comando no terminal linux: `openssl req -x509 -sha256 -newkey rsa:2048 -keyout certificate.key -out certificate.crt -days 1024 -nodes`
+2 - isso me deu 2 arquivos de saida, o certificate.crt e certificate.key
+3 - pra simular um .pfx, rodei o comando no powershell `certutil -mergepfx certificate.crt a.pfx`, que me pediu pra criar uma senha e gerou o a.pfx
+4 - para ler o pdf ele precisa ser um binario
+5 - a request feita tem que ter o body do tipo multipart/form-data senao da ruim
+
+
