@@ -23,3 +23,4 @@ tzlocal==5.2
 uritools==4.0.2
 urllib3==2.2.1
 Werkzeug==3.0.2
+Gunicorn
